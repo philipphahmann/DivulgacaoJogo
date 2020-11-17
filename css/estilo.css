@@ -1,0 +1,130 @@
+/* Classes */
+.navigation {
+    width: 90%;
+}
+.banner {
+    width: 100%;
+    height: 300px;
+}
+
+.gameplay {
+    width: 100%;
+    height: 300px;
+    margin: 0px;
+    border: 0px;
+}
+
+.titulo {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.cenas {
+    width: 80%;
+}
+
+.img_cenas {
+    width: 100%;
+    height: 300px;
+}
+
+.col_regras {
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.img_equipe {
+    width: 150px;
+    height: 150px;
+}
+
+.image {
+    position: relative;
+}
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 4px;
+    height: 150px;
+    width: 150px;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: rgba(67, 68, 68, 0.7);
+}
+.image:hover .overlay {
+    opacity: 1;
+}
+.detail {
+    color: #fff;
+    font-size: 15px;
+    position: absolute;
+    top: 45%;
+    left: 25%;
+}
+
+.embed iframe {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border: none;
+}
+
+.embed {
+    position: relative;
+    width: 100%;
+    padding-bottom: 56.25%;
+}
+
+.redes_sociais {
+    width: 25px;
+    height: 25px;
+}
+
+.alinhaRedes ul {
+    list-style: none;
+    text-align: center;  
+}
+
+.alinhaRedes li {
+    display: inline-block;
+    padding: 20px;
+}
+
+.recuoSite {
+    margin-top: 15px; 
+    margin-bottom:40px; 
+}
+
+
+@media screen and (max-width: 767px) {
+    .overlay {
+        position: absolute;
+        margin: 0px auto;
+        height: 150px;
+        width: 150px;
+        opacity: 0;
+        transition: .5s ease;
+        background-color: rgba(67, 68, 68, 0.7);
+    }
+
+    .espacamento {
+        margin-top: 5px;
+        margin-bottom: 25px;
+    }
+
+    .alinhaRedes li {
+        display: inline-block;
+        padding: 0px 3px;
+        margin-top: 10px;
+    }
+
+    .tituloRedes {
+        margin-top: 20px;
+    }
+    
+    .recuo {
+        margin-bottom: 0px;
+    }
+}
